@@ -26,10 +26,10 @@ if (in_array('create', $uri)) {
                     <div class="flex items-center space-x-1">
                         <!-- Logo -->
                         <a href="#" class="xl:hidden block me-2">
-                            <img src="assets/images/logo-icon-32.png" class="md:hidden block" alt="">
+                            <img src="../../assets/images/logo-icon-32.png" class="md:hidden block" alt="">
                             <span class="md:block hidden">
-                                    <img src="assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
-                                    <img src="assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
+                                    <img src="../../assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
+                                    <img src="../../assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
                                 </span>
                         </a>
                         <!-- Logo -->
@@ -69,21 +69,21 @@ if (in_array('create', $uri)) {
                                     <li class="my-1">
                                         <a href=""
                                            class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                    src="assets/images/flags/germany.png"
+                                                    src="../../assets/images/flags/germany.png"
                                                     class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                             German</a>
                                     </li>
                                     <li class="my-1">
                                         <a href=""
                                            class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                    src="assets/images/flags/italy.png"
+                                                    src="../../assets/images/flags/italy.png"
                                                     class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                             Italian</a>
                                     </li>
                                     <li class="my-1">
                                         <a href=""
                                            class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                    src="assets/images/flags/russia.png"
+                                                    src="../../assets/images/flags/russia.png"
                                                     class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                             Russian</a>
                                     </li>
@@ -132,7 +132,7 @@ if (in_array('create', $uri)) {
                                     <li>
                                         <a href="#!" class="block font-medium py-1.5 px-4">
                                             <div class="flex items-center">
-                                                <img src="assets/images/client/04.jpg"
+                                                <img src="../../assets/images/client/04.jpg"
                                                      class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
                                                 <div class="ms-2">
                                                     <span class="text-[15px] font-medium block"><span
@@ -172,7 +172,7 @@ if (in_array('create', $uri)) {
                                     <li>
                                         <a href="#!" class="block font-medium py-1.5 px-4">
                                             <div class="flex items-center">
-                                                <img src="assets/images/client/05.jpg"
+                                                <img src="../../assets/images/client/05.jpg"
                                                      class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
                                                 <div class="ms-2">
                                                     <span class="text-[15px] font-medium block"><span
@@ -307,18 +307,7 @@ if (in_array('create', $uri)) {
                                                     } ?>
                                                 </select>
                                             </div>
-
-                                            <div>
-                                                <label for="statuses" style="font-weight: 500;">Holati</label>
-                                                <select name="status_id" id="statuses" style="color: black; width: 100%;">
-                                                    <?php foreach ($statuses as $status) {
-                                                        $selected = ($status['id'] == $ad->status_id) ? 'selected' : '';
-                                                        echo "<option value=\"{$status['id']}\" $selected>{$status['name']}</option>";
-                                                    }?>
-                                                </select>
-                                            </div>
                                         </div>
-
                                         <div class="md:col-span-4 col-span-12">
                                             <label for="address" class="font-medium">Manzil</label>
                                             <input name="address" id="address" type="text" class="form-input mt-2"

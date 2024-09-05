@@ -1,5 +1,4 @@
 <?php
-
 loadPartials('header');
 loadPartials('navbar');
 ?>

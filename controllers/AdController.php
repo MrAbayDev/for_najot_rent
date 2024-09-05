@@ -4,12 +4,19 @@ declare(strict_types=1);
 
 namespace Controller;
 
+use App\Ads;
 use App\Branch;
 use App\Session;
 use App\Status;
 
 class AdController
 {
+    public Ads $ads;
+
+    public function __construct()
+    {
+        $this->ads = new Ads();
+    }
     public function show(int $id): void
     {
         $ad        = (new \App\Ads())->getAd($id);
@@ -94,5 +101,8 @@ class AdController
         );
         redirect('/profile');
     }
-
+    public function delete(int $id): void
+    {
+        $this->ads->deleteAds($id);
+    }
 }

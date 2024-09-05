@@ -5,123 +5,27 @@ loadPartials(path: 'header', loadFromPublic: false);
 ?>
 
 <body class="font-body text-base text-black dark:text-white dark:bg-slate-900">
-<!-- Loader Start -->
-<!-- <div id="preloader">
-    <div id="status">
-        <div class="spinner">
-            <div class="double-bounce1"></div>
-            <div class="double-bounce2"></div>
-        </div>
-    </div>
-</div> -->
-<!-- Loader End -->
-
-
 <div class="page-wrapper toggled">
     <!-- sidebar-wrapper -->
-    <nav id="sidebar" class="sidebar-wrapper sidebar-dark">
+#    <nav id="sidebar" class="sidebar-wrapper sidebar-dark">
         <div class="sidebar-content">
             <div class="sidebar-brand">
-                <a href="index.html"><img src="dashboard/assets/images/logo-light.png" alt=""></a>
+                <a href="/"><img src="../../dashboard/assets/images/logo-light.png" alt=""></a>
             </div>
 
             <ul class="sidebar-menu border-t border-white/10" data-simplebar style="height: calc(100% - 70px);">
                 <li>
-                    <a href="index.html"><i class="mdi mdi-chart-bell-curve-cumulative me-2"></i>Dashboard</a>
+                    <a href="/"><i class="mdi mdi-chart-bell-curve-cumulative me-2"></i>E'lonlar</a>
                 </li>
 
                 <li>
-                    <a href="explore-property.html"><i class="mdi mdi-home-city me-2"></i>Explore Properties</a>
-                </li>
-
-                <li>
-                    <a href="favorite-property.html"><i class="mdi mdi-home-heart me-2"></i>Favorite Properties</a>
-                </li>
-
-                <li>
-                    <a href="add-property.html"><i class="mdi mdi-home-plus me-2"></i>Add Properties</a>
-                </li>
-
-                <li>
-                    <a href="chat.html"><i class="mdi mdi-chat-outline me-2"></i>Chat</a>
-                </li>
-
-                <li class="sidebar-dropdown">
-                    <a href="javascript:void(0)"><i class="mdi mdi-account-edit me-2"></i>User Profile</a>
-                    <div class="sidebar-submenu">
-                        <ul>
-                            <li><a href="profile.html">Profile</a></li>
-                            <li><a href="profile-setting.html">Profile Settings</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <li class="sidebar-dropdown">
-                    <a href="javascript:void(0)"><i class="mdi mdi-post-outline me-2"></i>Blog</a>
-                    <div class="sidebar-submenu">
-                        <ul>
-                            <li><a href="blog.html">Blogs</a></li>
-                            <li><a href="blog-detail.html">Blog Detail</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <li class="sidebar-dropdown">
-                    <a href="javascript:void(0)"><i class="mdi mdi-file-document-outline me-2"></i>Pages</a>
-                    <div class="sidebar-submenu">
-                        <ul>
-                            <li><a href="starter.html">Starter</a></li>
-                            <li><a href="faqs.html">FAQs</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="review.html">Review</a></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Term & Condition</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <li class="sidebar-dropdown">
-                    <a href="javascript:void(0)"><i class="mdi mdi-login me-2"></i>Authentication</a>
-                    <div class="sidebar-submenu">
-                        <ul>
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="signup.html">Signup</a></li>
-                            <li><a href="signup-success.html">Signup Success</a></li>
-                            <li><a href="reset-password.html">Reset Password</a></li>
-                            <li><a href="lock-screen.html">Lockscreen</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <li class="sidebar-dropdown">
-                    <a href="javascript:void(0)"><i class="mdi mdi-layers me-2"></i>Miscellaneous</a>
-                    <div class="sidebar-submenu">
-                        <ul>
-                            <li><a href="comingsoon.html">Comingsoon</a></li>
-                            <li><a href="maintenance.html">Maintenance</a></li>
-                            <li><a href="error.html">Error</a></li>
-                            <li><a href="thankyou.html">Thank You</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <li class="relative lg:m-8 m-6 px-8 py-10 rounded-lg bg-gradient-to-b to-transparent from-slate-800 text-center">
-                            <span class="relative z-10">
-                                <span class="text-xl font-medium h5 text-white">Upgrade to Pro</span>
-
-                                <span class="text-slate-400 mt-3 mb-5 block">Get one month free and subscribe to pro</span>
-
-                                <a href="https://1.envato.market/hously" target="_blank"
-                                   class="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-gray-500/5 hover:bg-gray-500 border-gray-500/10 hover:border-gray-500 text-white rounded-md">Subscribe</a>
-                            </span>
-
-                    <span class="mdi mdi-home-city-outline text-[160px] absolute top-1/2 -translate-y-1/2 start-0 end-0 mx-auto text-center opacity-[0.02] text-white z-0"></span>
+                    <a href="/branches"><i class="mdi mdi-home-city me-2"></i>Branches</a>
                 </li>
             </ul>
             <!-- sidebar-menu  -->
         </div>
     </nav>
-    <!-- sidebar-wrapper  -->
+#    <!-- sidebar-wrapper  -->
 
     <!-- Start Page Content -->
     <main class="page-content bg-gray-50 dark:bg-slate-800">
@@ -131,10 +35,10 @@ loadPartials(path: 'header', loadFromPublic: false);
                 <div class="flex items-center space-x-1">
                     <!-- Logo -->
                     <a href="#" class="xl:hidden block me-2">
-                        <img src="dashboard/assets/images/logo-icon-32.png" class="md:hidden block" alt="">
+                        <img src="../../dashboard/assets/images/logo-icon-32.png" class="md:hidden block" alt="">
                         <span class="md:block hidden">
-                                    <img src="dashboard/assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
-                                    <img src="dashboard/assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
+                                    <img src="../../dashboard/assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
+                                    <img src="../../dashboard/assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
                                 </span>
                     </a>
                     <!-- Logo -->
@@ -165,7 +69,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                         <button data-dropdown-toggle="dropdown"
                                 class="dropdown-toggle size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[20px] text-center bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 border border-gray-100 dark:border-gray-800 text-slate-900 dark:text-white rounded-md"
                                 type="button">
-                            <img src="dashboard/assets/images/flags/usa.png" class="size-6 rounded-md" alt="">
+                            <img src="../../dashboard/assets/images/flags/usa.png" class="size-6 rounded-md" alt="">
                         </button>
                         <!-- Dropdown menu -->
                         <div class="dropdown-menu absolute end-0 m-0 mt-4 z-10 w-36 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 hidden"
@@ -174,28 +78,28 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <li class="my-1">
                                     <a href=""
                                        class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                src="dashboard/assets/images/flags/germany.png"
+                                                src="../../dashboard/assets/images/flags/germany.png"
                                                 class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                         German</a>
                                 </li>
                                 <li class="my-1">
                                     <a href=""
                                        class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                src="dashboard/assets/images/flags/italy.png"
+                                                src="../../dashboard/assets/images/flags/italy.png"
                                                 class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                         Italian</a>
                                 </li>
                                 <li class="my-1">
                                     <a href=""
                                        class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                src="dashboard/assets/images/flags/russia.png"
+                                                src="../../dashboard/assets/images/flags/russia.png"
                                                 class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                         Russian</a>
                                 </li>
                                 <li class="my-1">
                                     <a href=""
                                        class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                src="dashboard/assets/images/flags/spain.png"
+                                                src="../../dashboard/assets/images/flags/spain.png"
                                                 class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                         Spanish</a>
                                 </li>
@@ -237,7 +141,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <li>
                                     <a href="#!" class="block font-medium py-1.5 px-4">
                                         <div class="flex items-center">
-                                            <img src="dashboard/assets/images/client/04.jpg"
+                                            <img src="../../dashboard/assets/images/client/04.jpg"
                                                  class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
                                             <div class="ms-2">
                                                 <span class="text-[15px] font-medium block"><span class="font-semibold">Message</span> from Luis</span>
@@ -275,7 +179,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <li>
                                     <a href="#!" class="block font-medium py-1.5 px-4">
                                         <div class="flex items-center">
-                                            <img src="dashboard/assets/images/client/05.jpg"
+                                            <img src="../../dashboard/assets/images/client/05.jpg"
                                                  class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
                                             <div class="ms-2">
                                                 <span class="text-[15px] font-medium block"><span class="font-semibold">Cally</span> started following you</span>
@@ -714,7 +618,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <div class="flex justify-between items-center">
                                     <div class="flex items-center">
                                         <div class="relative md:shrink-0">
-                                            <img src="dashboard/assets/images/property/1.jpg"
+                                            <img src="../dashboard/assets/images/property/1.jpg"
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>
@@ -731,7 +635,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <div class="flex justify-between items-center mt-4">
                                     <div class="flex items-center">
                                         <div class="relative md:shrink-0">
-                                            <img src="dashboard/assets/images/property/2.jpg"
+                                            <img src="../../dashboard/assets/images/property/2.jpg"
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>
@@ -748,7 +652,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <div class="flex justify-between items-center mt-4">
                                     <div class="flex items-center">
                                         <div class="relative md:shrink-0">
-                                            <img src="dashboard/assets/images/property/3.jpg"
+                                            <img src="../../dashboard/assets/images/property/3.jpg"
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>
@@ -765,7 +669,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <div class="flex justify-between items-center mt-4">
                                     <div class="flex items-center">
                                         <div class="relative md:shrink-0">
-                                            <img src="dashboard/assets/images/property/4.jpg"
+                                            <img src="../../dashboard/assets/images/property/4.jpg"
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>
@@ -782,7 +686,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <div class="flex justify-between items-center mt-4">
                                     <div class="flex items-center">
                                         <div class="relative md:shrink-0">
-                                            <img src="dashboard/assets/images/property/5.jpg"
+                                            <img src="../../dashboard/assets/images/property/5.jpg"
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>
