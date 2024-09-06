@@ -96,7 +96,7 @@
         <div class="container relative text-center">
             <div class="grid md:grid-cols-2 items-center gap-6">
                 <div class="md:text-start text-center">
-                    <p class="mb-0 text-gray-300">© <script>document.write(new Date().getFullYear())</script> Hously. Design with <i class="mdi mdi-heart text-red-600"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                    <p class="mb-0 text-gray-300">© <script>document.write(new Date().getFullYear())</script> NTRA Design with <i class="mdi mdi-heart text-red-600"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
                 </div>
 
                 <ul class="list-none md:text-end text-center">

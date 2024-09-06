@@ -21,6 +21,10 @@ loadPartials(path: 'header', loadFromPublic: false);
                 <li>
                     <a href="/branches"><i class="mdi mdi-home-city me-2"></i>Branches</a>
                 </li>
+
+                <li>
+                    <a href="/users"><i class="mdi mdi-bag-personal-tag me-2"></i>Foydalanuvchilar</a>
+                </li>
             </ul>
             <!-- sidebar-menu  -->
         </div>
@@ -451,7 +455,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                             <div class="p-6 flex items-center justify-between border-b border-gray-100 dark:border-gray-800">
                                 <h6 class="text-lg font-semibold">Recent Transections</h6>
 
-                                <a href=""
+                                <a href="/users"
                                    class="btn btn-link font-normal text-slate-400 hover:text-green-600 after:bg-green-600 transition duration-500">View
                                     orders <i class="mdi mdi-arrow-right ms-1"></i></a>
                             </div>
@@ -477,7 +481,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                     <tr>
                                         <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                             <div class="relative md:shrink-0">
-                                                <img src="dashboard/assets/images/property/1.jpg"
+                                                <img src="../../dashboard/assets/images/property/1.jpg"
                                                      class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700"
                                                      alt="">
                                             </div>
@@ -502,7 +506,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                     <tr>
                                         <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                             <div class="relative md:shrink-0">
-                                                <img src="dashboard/assets/images/property/2.jpg"
+                                                <img src="../../dashboard/assets/images/property/2.jpg"
                                                      class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700"
                                                      alt="">
                                             </div>
@@ -527,7 +531,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                     <tr>
                                         <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                             <div class="relative md:shrink-0">
-                                                <img src="dashboard/assets/images/property/3.jpg"
+                                                <img src="../../dashboard/assets/images/property/3.jpg"
                                                      class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700"
                                                      alt="">
                                             </div>
@@ -552,7 +556,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                     <tr>
                                         <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                             <div class="relative md:shrink-0">
-                                                <img src="dashboard/assets/images/property/4.jpg"
+                                                <img src="../../dashboard/assets/images/property/4.jpg"
                                                      class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700"
                                                      alt="">
                                             </div>
@@ -577,7 +581,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                     <tr>
                                         <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                             <div class="relative md:shrink-0">
-                                                <img src="dashboard/assets/images/property/5.jpg"
+                                                <img src="../../dashboard/assets/images/property/5.jpg"
                                                      class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700"
                                                      alt="">
                                             </div>
@@ -690,13 +694,11 @@ loadPartials(path: 'header', loadFromPublic: false);
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>
-
                                         <div class="ms-2">
-                                            <a href="" class="font-medium hover:text-green-600 block text-lg">House</a>
+                                            <a href="/" class="font-medium hover:text-green-600 block text-lg">House</a>
                                             <span class="text-slate-400">Baton Rouge, USA</span>
                                         </div>
                                     </div>
-
                                     <span class="w-20 text-emerald-600 text-end"><i class="mdi mdi-arrow-top-right"></i> 45%</span>
                                 </div>
                             </div>
@@ -739,17 +741,6 @@ loadPartials(path: 'header', loadFromPublic: false);
                 </label>
             </span>
 </div>
-<!-- Switcher -->
-
-<!-- LTR & RTL Mode Code -->
-<div class="fixed top-[40%] -end-3 z-50">
-    <a href="" id="switchRtl">
-        <span class="py-1 px-3 relative inline-block rounded-b-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-700 font-bold rtl:block ltr:hidden">LTR</span>
-        <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-700 font-bold ltr:block rtl:hidden">RTL</span>
-    </a>
-</div>
-<!-- LTR & RTL Mode Code -->
-
 <?php
 loadPartials(path: 'footer', loadFromPublic: false);
 ?>

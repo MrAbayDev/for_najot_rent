@@ -24,7 +24,6 @@ loadPartials('navbar');
                                     <span class="text-slate-400">Price</span>
                                     <p class="text-lg font-medium">$ <?= $branch->address ?></p>
                                 </li>
-
                             </ul>
                         </div>
                     </div><!--end property content-->
@@ -34,4 +33,4 @@ loadPartials('navbar');
     </section><!--end section-->
     <!-- End -->
 <?php
-loadPartials('footer');
+loadPartials('footer');?>

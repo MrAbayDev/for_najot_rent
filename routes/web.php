@@ -5,6 +5,7 @@ declare(strict_types=1);
 use App\Router;
 use Controller\AdController;
 use Controller\BranchController;
+use Controller\UserController;
 
 Router::get('/', fn() => loadController('home'));
 
@@ -31,9 +32,12 @@ Router::get('/register', fn()=> loadView('auth/createUser'));
 Router::post('/register', fn()=> (new \Controller\AuthController())->register());
 
 Router::get('/branch/{id}', fn(int $id) => (new BranchController())->show($id));
+
 Router::get('/branch/create', fn() => (new BranchController())->create());
 Router::post('/branch/create', fn() => (new BranchController())->store());
-
 Router::get('/branches',fn() => loadController('branches'));
+
+Router::get('/users/{id}', fn(int $id) => (new UserController())->show($id));
+Router::get('/users', fn() => loadController('users'));
 
 Router::errorResponse(404, 'Not Found');

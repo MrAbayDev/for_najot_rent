@@ -11,21 +11,12 @@
 </div>
 <!-- Switcher -->
 
-<!-- LTR & RTL Mode Code -->
-<div class="fixed top-[40%] -end-3 z-50">
-    <a href="" id="switchRtl">
-        <span class="py-1 px-3 relative inline-block rounded-b-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-700 font-bold rtl:block ltr:hidden" >LTR</span>
-        <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-700 font-bold ltr:block rtl:hidden">RTL</span>
-    </a>
-</div>
-<!-- LTR & RTL Mode Code -->
-
 <!-- JAVASCRIPTS -->
-<script src="../../assets/libs/tobii/js/tobii.min.js"></script>
-<script src="../../assets/libs/feather-icons/feather.min.js"></script>
-<script src="../../assets/libs/simplebar/simplebar.min.js"></script>
-<script src="../../assets/js/plugins.init.js"></script>
-<script src="../../assets/js/app.js"></script>
+<script src="/dashboard/assets/libs/tobii/js/tobii.min.js"></script>
+<script src="/dashboard/assets/libs/feather-icons/feather.min.js"></script>
+<script src="/dashboard/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="/dashboard/assets/js/plugins.init.js"></script>
+<script src="/dashboard/assets/js/app.js"></script>
 <!-- JAVASCRIPTS -->
 </body>
 </html>

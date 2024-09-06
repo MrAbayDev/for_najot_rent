@@ -34,7 +34,7 @@ class BranchController
         if ($name && $address) {
             (new Branch())->createBranch(name: $name, address: $address);
         }
-        echo "Iltimos, barcha maydonlarni to'ldiring!";
+        redirect('/');
     }
 
     public function update(int $id): void{
