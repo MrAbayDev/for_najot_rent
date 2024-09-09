@@ -3,25 +3,23 @@ loadPartials('header');
 loadPartials('navbar');
 ?>
     <!-- Start -->
-    <section class="relative lg:py-24 py-16">
+    <section class="relative mb lg:py-24 py-16">
         <div class="container relative">
             <div class="grid grid-cols-1 justify-center">
-                <div class="relative -mt-32">
+                <div class="relative mb-24 -mt-6">
                     <div class="grid grid-cols-1">
                         <div id="StarterContent" class="p-6 bg-white dark:bg-slate-900 rounded-ss-none rounded-se-none md:rounded-se-xl rounded-xl shadow-md dark:shadow-gray-700">
                             <div class="" id="buy-home" role="tabpanel" aria-labelledby="buy-home-tab">
-                                <form action="#">
+                                <form action="/search" method="get">
                                     <div class="registration-form text-dark text-start">
                                         <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-0 gap-6">
                                             <div>
-                                                <label class="form-label font-medium text-slate-900 dark:text-white">Search : <span class="text-red-600">*</span></label>
+                                                <label class="form-label font-medium text-slate-900 dark:text-white">Qidiruv : <span class="text-red-600">*</span></label>
                                                 <div class="filter-search-form relative filter-border mt-2">
                                                     <i class="uil uil-search icons"></i>
-                                                    <input name="name" type="text" id="job-keyword" class="form-input filter-input-box bg-gray-50 dark:bg-slate-800 border-0" placeholder="Search your keaywords">
+                                                    <input name="search_phrase" type="text" id="job-keyword" class="form-input filter-input-box bg-gray-50 dark:bg-slate-800 border-0" placeholder="Qidiruv iborasi">
                                                 </div>
                                             </div>
-
-
                                             <div>
                                                 <label for="buy-properties" class="form-label font-medium text-slate-900 dark:text-white">Select Categories:</label>
                                                 <div class="filter-search-form relative filter-border mt-2">
@@ -215,7 +213,7 @@ loadPartials('navbar');
                 </div>
             </div><!--end grid-->
         </div><!--end container-->
-            <div class="container relative">
+            <div class="container relative mt-12">
                 <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
                 <?php
                 /**

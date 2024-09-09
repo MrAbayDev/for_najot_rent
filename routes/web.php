@@ -40,4 +40,6 @@ Router::get('/branches',fn() => loadController('branches'));
 Router::get('/users/{id}', fn(int $id) => (new UserController())->show($id));
 Router::get('/users', fn() => loadController('users'));
 
+Router::get('/search', fn() => (new AdController())->search());
+
 Router::errorResponse(404, 'Not Found');
