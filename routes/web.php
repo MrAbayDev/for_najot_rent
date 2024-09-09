@@ -7,6 +7,8 @@ use Controller\AdController;
 use Controller\BranchController;
 use Controller\UserController;
 
+Router::get('/',fn() => (new AdController())->home());
+
 Router::get('/', fn() => loadController('home'));
 
 Router::get('/ads/{id}', fn(int $id) => (new AdController())->show($id));

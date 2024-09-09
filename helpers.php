@@ -57,6 +57,26 @@ function loadPartials(string $path, array|null $args = null, bool $loadFromPubli
 
     require basePath($file);
 }
+function view(string $path, array $args = null, bool $loadFromPublic = true): void
+{
+    if ($loadFromPublic) {
+        $file = "/resources/views/pages/$path.php";
+    } else {
+        $file = "/public/pages/$path.php";
+    }
+
+    $filePath = basePath($file);
+
+    if (!file_exists($filePath)) {
+        echo "Required view not found: $filePath";
+        return;
+    }
+
+    if (is_array($args)) {
+        extract($args);
+    }
+    require $filePath;
+}
 
 function loadController(string $path, array|null $args = null): void
 {
