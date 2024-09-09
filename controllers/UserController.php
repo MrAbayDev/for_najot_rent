@@ -22,4 +22,5 @@ class UserController
         loadView('single-user', ['user' => $user]);
         loadView('profile', ['user' => $user]);
     }
+
 }

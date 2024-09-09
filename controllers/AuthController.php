@@ -29,11 +29,9 @@ class AuthController
         if((new User())->isUserExists($userName)){
             echo "user already exists";
         }
-        else{
-            (new User())->createUser($userName, $position, $gender, $phone, $password);
+        (new User())->createUser($userName, $position, $gender, $phone, $password);
             header("Location: /");
             exit();
-        }
     }
     public function showUserInfo():void{
         $userGender = (new User())->getUser();

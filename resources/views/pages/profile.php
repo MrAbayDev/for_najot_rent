@@ -23,7 +23,7 @@ loadPartials(path: 'sidebar', loadFromPublic: false);
                             <input id="pro-banner" name="profile-banner" type="file" class="hidden"
                                    onchange="loadFile(event)">
                             <div class="relative shrink-0">
-                                <img src="dashboard/assets/images/bg.jpg" class="h-80 w-full object-cover"
+                                <img src="/dashboard/assets/images/bg.jpg" class="h-80 w-full object-cover"
                                      id="profile-banner"
                                      alt="">
                                 <div class="absolute inset-0 bg-black/70"></div>
@@ -170,8 +170,7 @@ loadPartials(path: 'sidebar', loadFromPublic: false);
                                                     </ul>
                                                 </div>
                                             </div><!--end property content-->
-                                        <?php
-                                        endforeach; ?>
+                                        <?php endforeach; ?>
                                     </div>
                                 </div>
                             </div>
