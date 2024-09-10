@@ -113,18 +113,18 @@ class Ads
         $stmt->execute();
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
-    public function search(string $search_Phrase, string|null $branch = null): bool|array
+    public function search(string $search_Phrase, string|null $branch = null, int $min_price = 0,int $max_price = PHP_INT_MAX): bool|array
     {
         $search_phrase = "%$search_Phrase%";
-        $query = ("SELECT *, 
-                        ads.id 
-                        AS id, ads.address 
-                        AS address, ads_image.name 
+        $query = ("SELECT *,
+                        ads.id
+                        AS id, ads.address
+                        AS address, ads_image.name
                         AS image
                         FROM ads
                         JOIN branch ON branch.id = ads.branch_id
-                        LEFT JOIN ads_image ON ads.id = ads_image.ads_id 
-                        WHERE (title LIKE :search_phrase OR description LIKE :search_phrase)");
+                        LEFT JOIN ads_image ON ads.id = ads_image.ads_id
+                        WHERE (title LIKE :search_phrase OR description LIKE :search_phrase) AND price BETWEEN :min_price AND :max_price");
         $this->pdo->prepare($query);
 
         if($branch){
@@ -135,8 +135,12 @@ class Ads
             $stmt = $this->pdo->prepare($query);
         }
         $stmt->bindParam(':search_phrase', $search_phrase);
+        $stmt->bindParam(':min_price', $min_price);
+        $stmt->bindParam(':max_price', $max_price);
         $stmt->execute();
         return $stmt->fetchAll();
     }
+
+
 
 }

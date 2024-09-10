@@ -1,3 +1,4 @@
+
 <?php
 loadPartials('header');
 loadPartials('navbar');
@@ -12,7 +13,7 @@ loadPartials('navbar');
                     <div class="grid grid-cols-1">
                         <div id="StarterContent" class="p-6 bg-white dark:bg-slate-900 rounded-ss-none rounded-se-none md:rounded-se-xl rounded-xl shadow-md dark:shadow-gray-700">
                             <div class="" id="buy-home" role="tabpanel" aria-labelledby="buy-home-tab">
-                                <form action="/" method="get">
+                                <form action="/search" method="get">
                                     <div class="registration-form text-dark text-start">
                                         <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-0 gap-6">
                                             <div>
@@ -266,12 +267,11 @@ loadPartials('navbar');
                             </ul>
                         </div>
                     </div><!--end property content-->
-                <?php
-                endforeach; ?>
+                <?php endforeach; ?>
             </div><!--en grid-->
 
         </div><!--end container-->
     </section><!--end section-->
     <!-- End -->
 <?php
-loadPartials('footer');
+loadPartials('footer' );
