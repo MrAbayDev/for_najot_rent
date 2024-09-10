@@ -111,10 +111,9 @@ class AdController
         $ads =$this->ads->search($search);
         loadView('home', ['ads' => $ads]);
     }
-    public function home()
+    public function home(): void
     {
         $branches = (new Branch())->getBranches();
-//        dd($branches);
         view('home',['ads' => $this->ads->getAds(),'branches' => $branches]);
     }
 }

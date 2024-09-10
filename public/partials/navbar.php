@@ -35,6 +35,10 @@
                 </a>
             </li>
             <li class="sm:inline ps-1 mb-0 hidden">
+                <a href="/ads/create"
+                   class="btn bg-green-600 hover:bg-green-700 border-green-600 dark:border-green-600 text-white rounded-full">Create Ads</a>
+            </li>
+            <li class="sm:inline ps-1 mb-0 hidden">
                 <a href="/profile"
                    class="btn bg-green-600 hover:bg-green-700 border-green-600 dark:border-green-600 text-white rounded-full">Login</a>
             </li>
@@ -42,6 +46,7 @@
                 <a href="/register"
                    class="btn bg-green-600 hover:bg-green-700 border-green-600 dark:border-green-600 text-white rounded-full">Signup</a>
             </li>
+
         </ul>
         <!-- Login button End -->
     </div><!-- End container -->

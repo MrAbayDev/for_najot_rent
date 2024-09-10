@@ -307,6 +307,15 @@ if (in_array('create', $uri)) {
                                                     } ?>
                                                 </select>
                                             </div>
+                                            <div>
+                                                <label for="statuses" style="font-weight: 500;">Status</label>
+                                                <select name="status_id" id="statuses" style="color: black; width: 100%;">
+                                                    <?php foreach ($statuses as $status) {
+                                                        $selected = ($status['id'] == $ad->status_id ? "selected" : "");
+                                                        echo "<option value='{$status['id']}\' $selected>{$status['name']}</option>";
+                                                    }?>
+                                                </select>
+                                            </div>
                                         </div>
                                         <div class="md:col-span-4 col-span-12">
                                             <label for="address" class="font-medium">Manzil</label>

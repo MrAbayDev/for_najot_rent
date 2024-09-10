@@ -125,7 +125,8 @@ class Ads
                         JOIN branch ON branch.id = ads.branch_id
                         LEFT JOIN ads_image ON ads.id = ads_image.ads_id 
                         WHERE (title LIKE :search_phrase OR description LIKE :search_phrase)");
-        $stmt = $this->pdo->prepare($query);
+        $this->pdo->prepare($query);
+
         if($branch){
             $query = ("AND branch.id = :branch_id");
             $stmt = $this->pdo->prepare($query);

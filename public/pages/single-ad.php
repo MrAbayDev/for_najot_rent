@@ -21,26 +21,6 @@ loadPartials('navbar');
                             <img src="<?=$ad->image?>"
                                  class="rounded-md shadow dark:shadow-gray-700" alt="">
                         </div>
-
-                        <div class="tiny-slide">
-                            <img src="../assets/images/property/single/2.jpg"
-                                 class="rounded-md shadow dark:shadow-gray-700" alt="">
-                        </div>
-
-                        <div class="tiny-slide">
-                            <img src="../assets/images/property/single/3.jpg"
-                                 class="rounded-md shadow dark:shadow-gray-700" alt="">
-                        </div>
-
-                        <div class="tiny-slide">
-                            <img src="../assets/images/property/single/4.jpg"
-                                 class="rounded-md shadow dark:shadow-gray-700" alt="">
-                        </div>
-
-                        <div class="tiny-slide">
-                            <img src="../assets/images/property/single/5.jpg"
-                                 class="rounded-md shadow dark:shadow-gray-700" alt="">
-                        </div>
                     </div>
                 </div>
 
@@ -122,8 +102,8 @@ loadPartials('navbar');
                             <form action="/ads/delete/<?= $ad->id ?>" method="post">
                                 <input type="hidden" name="_method" value="delete">
                                 <button type="submit"
-                                        class="btn bg-transparent hover:bg-green-600 border border-green-600 text-green-600 hover:text-white rounded-md">
-                                    <i class="uil uil-phone align-middle me-2"></i>Delete
+                                        class="btn bg-transparent hover:bg-red-600 border border-red-600 text-red-600 hover:text-white rounded-md px-4 py-2 transition duration-300 ease-in-out">
+                                    <i class="mdi mdi-delete align-middle me-2"></i>Delete
                                 </button>
                             </form>
                         </div>
