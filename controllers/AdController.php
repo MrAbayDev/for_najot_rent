@@ -107,7 +107,6 @@ class AdController
     }
     public function search(): void
     {
-
         $search = $_REQUEST['search_phrase'];
         $branch = $_GET['branch'] ? (int) $_GET['branch'] : null;
         $min_price = $_GET['choices-min-price'] ? (int) $_GET['choices-min-price'] : 0;
@@ -119,7 +118,6 @@ class AdController
 
         view('home', ['ads' => $ads, 'branches' => $branches]);
     }
-
     public function home(): void
     {
         $branches = (new Branch())->getBranches();
