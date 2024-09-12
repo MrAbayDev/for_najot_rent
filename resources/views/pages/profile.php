@@ -1,17 +1,17 @@
 <?php
 
-loadPartials(path: 'header', loadFromPublic: false);
+loadPartials(path: 'header');
 
 /**
  * @var $user // Comes from controller
  */
 ?>
     <div class="page-wrapper toggled" >
-<?php loadPartials(path: 'sidebar', loadFromPublic: false); ?>
+<?php loadPartials(path: 'sidebar'); ?>
         <!-- Start Page Content -->
         <main class="page-content bg-gray-50 dark:bg-slate-800">
             <?php
-            loadPartials(path: 'top-header', loadFromPublic: false);
+//            loadPartials(path: 'top-header');
             ?>
             <div class="container-fluid relative px-3">
                 <div class="layout-specing">
@@ -20,7 +20,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                             <input id="pro-banner" name="profile-banner" type="file" class="hidden"
                                    onchange="loadFile(event)">
                             <div class="relative shrink-0">
-                                <img src="/dashboard/assets/images/bg.jpg" class="h-80 w-full object-cover"
+                                <img src="dashboard/assets/images/bg.jpg" class="h-80 w-full object-cover"
                                      id="profile-banner"
                                      alt="">
                                 <div class="absolute inset-0 bg-black/70"></div>
@@ -37,7 +37,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                            onchange="loadFile(event)"/>
                                     <div>
                                         <div class="relative size-24 mx-auto">
-                                            <img src="/dashboard/assets/images/client/07.jpg"
+                                            <img src="dashboard/assets/images/client/07.jpg"
                                                  class="rounded-full shadow dark:shadow-gray-700 ring-4 ring-slate-50 dark:ring-slate-800"
                                                  id="profile-image" alt="">
                                             <label class="absolute inset-0 cursor-pointer" for="pro-img"></label>

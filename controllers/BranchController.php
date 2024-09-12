@@ -24,7 +24,7 @@ class BranchController
     public function create(): void
     {
         $branches = (new Branch())->getBranches();
-        loadView('dashboard/create-branch', ['branches' => $branches]);
+        view('dashboard/create-branch', ['branches' => $branches]);
     }
 
     public function store(): void
@@ -39,7 +39,7 @@ class BranchController
 
     public function update(int $id): void{
         $branches = (new Branch())->getBranches();
-        loadView('dashboard/create-branch', ['ad' => (new \App\Branch())->getBranch($id), 'branches' => $branches]);
+        view('dashboard/create-branch', ['ad' => (new \App\Branch())->getBranch($id), 'branches' => $branches]);
     }
 
     public function edit(int $id): void{

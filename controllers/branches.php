@@ -4,4 +4,4 @@ declare(strict_types=1);
 
 $branches = (new \App\Branch())->getBranches();
 
-loadView('branches', ['branches' => $branches]);
+view('branches', ['branches' => $branches]);

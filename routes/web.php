@@ -19,18 +19,18 @@ Router::get('/ads/update/{id}', fn(int $id) => (new AdController())->update($id)
 Router::patch('/ads/update/{id}', fn(int $id) => (new AdController())->edit($id));
 
 
-Router::get('/status/create', fn() => loadView('dashboard/create-status'));
+Router::get('/status/create', fn() => view('dashboard/create-status'));
 Router::post('/status/create', fn() => loadController('createStatus'));
 
-Router::get('/login', fn() => loadView('auth/login'), 'guest');
+Router::get('/login', fn() => view('auth/login'), 'guest');
 Router::post('/login', fn() => (new \Controller\AuthController())->login());
 
-Router::get('/admin', fn() => loadView('dashboard/home'), 'auth');
+Router::get('/admin', fn() => view('dashboard/home'), 'auth');
 Router::get('/profile', fn() => (new \Controller\UserController())->loadProfile(), 'auth');
 
 Router::delete('/ads/delete/{id}',fn(int $id)=>(new AdController())->delete($id));
 
-Router::get('/register', fn()=> loadView('auth/createUser'));
+Router::get('/register', fn()=> view('auth/createUser'));
 Router::post('/register', fn()=> (new \Controller\AuthController())->register());
 
 Router::get('/branch/{id}', fn(int $id) => (new BranchController())->show($id));

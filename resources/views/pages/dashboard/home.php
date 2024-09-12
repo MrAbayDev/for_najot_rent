@@ -10,7 +10,7 @@ loadPartials(path: 'header', loadFromPublic: false);
 #    <nav id="sidebar" class="sidebar-wrapper sidebar-dark">
         <div class="sidebar-content">
             <div class="sidebar-brand">
-                <a href="/"><img src="../../dashboard/assets/images/logo-light.png" alt=""></a>
+                <a href="/"><img src="../../../../public/dashboard/assets/images/logo-light.png" alt=""></a>
             </div>
 
             <ul class="sidebar-menu border-t border-white/10" data-simplebar style="height: calc(100% - 70px);">
@@ -39,10 +39,10 @@ loadPartials(path: 'header', loadFromPublic: false);
                 <div class="flex items-center space-x-1">
                     <!-- Logo -->
                     <a href="#" class="xl:hidden block me-2">
-                        <img src="../../dashboard/assets/images/logo-icon-32.png" class="md:hidden block" alt="">
+                        <img src="../../../../public/dashboard/assets/images/logo-icon-32.png" class="md:hidden block" alt="">
                         <span class="md:block hidden">
-                                    <img src="../../dashboard/assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
-                                    <img src="../../dashboard/assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
+                                    <img src="../../../../public/dashboard/assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
+                                    <img src="../../../../public/dashboard/assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
                                 </span>
                     </a>
                     <!-- Logo -->
@@ -73,7 +73,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                         <button data-dropdown-toggle="dropdown"
                                 class="dropdown-toggle size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[20px] text-center bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 border border-gray-100 dark:border-gray-800 text-slate-900 dark:text-white rounded-md"
                                 type="button">
-                            <img src="../../dashboard/assets/images/flags/usa.png" class="size-6 rounded-md" alt="">
+                            <img src="../../../../public/dashboard/assets/images/flags/usa.png" class="size-6 rounded-md" alt="">
                         </button>
                         <!-- Dropdown menu -->
                         <div class="dropdown-menu absolute end-0 m-0 mt-4 z-10 w-36 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 hidden"
@@ -82,28 +82,28 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <li class="my-1">
                                     <a href=""
                                        class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                src="../../dashboard/assets/images/flags/germany.png"
+                                                src="../../../../public/dashboard/assets/images/flags/germany.png"
                                                 class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                         German</a>
                                 </li>
                                 <li class="my-1">
                                     <a href=""
                                        class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                src="../../dashboard/assets/images/flags/italy.png"
+                                                src="../../../../public/dashboard/assets/images/flags/italy.png"
                                                 class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                         Italian</a>
                                 </li>
                                 <li class="my-1">
                                     <a href=""
                                        class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                src="../../dashboard/assets/images/flags/russia.png"
+                                                src="../../../../public/dashboard/assets/images/flags/russia.png"
                                                 class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                         Russian</a>
                                 </li>
                                 <li class="my-1">
                                     <a href=""
                                        class="flex items-center text-[15px] font-medium py-1.5 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><img
-                                                src="../../dashboard/assets/images/flags/spain.png"
+                                                src="../../../../public/dashboard/assets/images/flags/spain.png"
                                                 class="size-6 rounded-md me-2 shadow dark:shadow-gray-700" alt="">
                                         Spanish</a>
                                 </li>
@@ -145,7 +145,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <li>
                                     <a href="#!" class="block font-medium py-1.5 px-4">
                                         <div class="flex items-center">
-                                            <img src="../../dashboard/assets/images/client/04.jpg"
+                                            <img src="../../../../public/dashboard/assets/images/client/04.jpg"
                                                  class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
                                             <div class="ms-2">
                                                 <span class="text-[15px] font-medium block"><span class="font-semibold">Message</span> from Luis</span>
@@ -183,7 +183,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <li>
                                     <a href="#!" class="block font-medium py-1.5 px-4">
                                         <div class="flex items-center">
-                                            <img src="../../dashboard/assets/images/client/05.jpg"
+                                            <img src="../../../../public/dashboard/assets/images/client/05.jpg"
                                                  class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
                                             <div class="ms-2">
                                                 <span class="text-[15px] font-medium block"><span class="font-semibold">Cally</span> started following you</span>
@@ -201,14 +201,14 @@ loadPartials(path: 'header', loadFromPublic: false);
                     <li class="dropdown inline-block relative">
                         <button data-dropdown-toggle="dropdown" class="dropdown-toggle items-center" type="button">
                             <span class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[20px] text-center bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 border border-gray-100 dark:border-gray-800 text-slate-900 dark:text-white rounded-md"><img
-                                        src="dashboard/assets/images/client/07.jpg" class="rounded-md" alt=""></span>
+                                        src="/dashboard/assets/images/client/07.jpg" class="rounded-md" alt=""></span>
                         </button>
                         <!-- Dropdown menu -->
                         <div class="dropdown-menu absolute end-0 m-0 mt-4 z-10 w-44 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 hidden"
                              onclick="event.stopPropagation();">
                             <ul class="py-2 text-start">
                                 <li>
-                                    <a href="profile.html"
+                                    <a href="/profile"
                                        class="block py-1 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><i
                                                 class="mdi mdi-account-outline me-2"></i>Profile</a>
                                 </li>
@@ -247,8 +247,8 @@ loadPartials(path: 'header', loadFromPublic: false);
                 <!-- Start Content -->
                 <div class="flex justify-between items-center">
                     <div>
-                        <h5 class="text-xl font-semibold">Hello, Calvin</h5>
-                        <h6 class="text-slate-400">Welcome back!</h6>
+                        <h5 class="text-xl font-semibold">Assalomu Alaykum</h5>
+                        <h6 class="text-slate-400">Xush Kelibsiz!</h6>
                     </div>
                 </div>
 
@@ -481,7 +481,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                     <tr>
                                         <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                             <div class="relative md:shrink-0">
-                                                <img src="../../dashboard/assets/images/property/1.jpg"
+                                                <img src="../../../../public/dashboard/assets/images/property/1.jpg"
                                                      class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700"
                                                      alt="">
                                             </div>
@@ -506,7 +506,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                     <tr>
                                         <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                             <div class="relative md:shrink-0">
-                                                <img src="../../dashboard/assets/images/property/2.jpg"
+                                                <img src="../../../../public/dashboard/assets/images/property/2.jpg"
                                                      class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700"
                                                      alt="">
                                             </div>
@@ -531,7 +531,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                     <tr>
                                         <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                             <div class="relative md:shrink-0">
-                                                <img src="../../dashboard/assets/images/property/3.jpg"
+                                                <img src="../../../../public/dashboard/assets/images/property/3.jpg"
                                                      class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700"
                                                      alt="">
                                             </div>
@@ -556,7 +556,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                     <tr>
                                         <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                             <div class="relative md:shrink-0">
-                                                <img src="../../dashboard/assets/images/property/4.jpg"
+                                                <img src="../../../../public/dashboard/assets/images/property/4.jpg"
                                                      class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700"
                                                      alt="">
                                             </div>
@@ -581,7 +581,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                     <tr>
                                         <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                             <div class="relative md:shrink-0">
-                                                <img src="../../dashboard/assets/images/property/5.jpg"
+                                                <img src="../../../../public/dashboard/assets/images/property/5.jpg"
                                                      class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700"
                                                      alt="">
                                             </div>
@@ -622,7 +622,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <div class="flex justify-between items-center">
                                     <div class="flex items-center">
                                         <div class="relative md:shrink-0">
-                                            <img src="../dashboard/assets/images/property/1.jpg"
+                                            <img src="/assets/images/property/1.jpg"
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>
@@ -639,7 +639,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <div class="flex justify-between items-center mt-4">
                                     <div class="flex items-center">
                                         <div class="relative md:shrink-0">
-                                            <img src="../../dashboard/assets/images/property/2.jpg"
+                                            <img src="../../../../public/dashboard/assets/images/property/2.jpg"
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>
@@ -656,7 +656,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <div class="flex justify-between items-center mt-4">
                                     <div class="flex items-center">
                                         <div class="relative md:shrink-0">
-                                            <img src="../../dashboard/assets/images/property/3.jpg"
+                                            <img src="../../../../public/dashboard/assets/images/property/3.jpg"
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>
@@ -673,7 +673,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <div class="flex justify-between items-center mt-4">
                                     <div class="flex items-center">
                                         <div class="relative md:shrink-0">
-                                            <img src="../../dashboard/assets/images/property/4.jpg"
+                                            <img src="../../../../public/dashboard/assets/images/property/4.jpg"
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>
@@ -690,7 +690,7 @@ loadPartials(path: 'header', loadFromPublic: false);
                                 <div class="flex justify-between items-center mt-4">
                                     <div class="flex items-center">
                                         <div class="relative md:shrink-0">
-                                            <img src="../../dashboard/assets/images/property/5.jpg"
+                                            <img src="../../../../public/dashboard/assets/images/property/5.jpg"
                                                  class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700"
                                                  alt="">
                                         </div>

@@ -28,8 +28,8 @@ if (in_array('create', $uri)) {
                         <a href="#" class="xl:hidden block me-2">
                             <img src="../../assets/images/logo-icon-32.png" class="md:hidden block" alt="">
                             <span class="md:block hidden">
-                                    <img src="../../assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
-                                    <img src="../../assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
+                                    <img src="../../../../public/assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
+                                    <img src="../../../../public/assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
                                 </span>
                         </a>
                         <!-- Logo -->
@@ -132,7 +132,7 @@ if (in_array('create', $uri)) {
                                     <li>
                                         <a href="#!" class="block font-medium py-1.5 px-4">
                                             <div class="flex items-center">
-                                                <img src="../../assets/images/client/04.jpg"
+                                                <img src="../../../../public/assets/images/client/04.jpg"
                                                      class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
                                                 <div class="ms-2">
                                                     <span class="text-[15px] font-medium block"><span
@@ -172,7 +172,7 @@ if (in_array('create', $uri)) {
                                     <li>
                                         <a href="#!" class="block font-medium py-1.5 px-4">
                                             <div class="flex items-center">
-                                                <img src="../../assets/images/client/05.jpg"
+                                                <img src="../../../../public/assets/images/client/05.jpg"
                                                      class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
                                                 <div class="ms-2">
                                                     <span class="text-[15px] font-medium block"><span
@@ -369,10 +369,10 @@ if (in_array('create', $uri)) {
         <!--End page-content" -->
     </div>
     <!-- JAVASCRIPTS -->
-    <script src="../../assets/libs/feather-icons/feather.min.js"></script>
+    <script src="../../../../public/assets/libs/feather-icons/feather.min.js"></script>
     <script src="../../assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="../../assets/js/plugins.init.js"></script>
-    <script src="../../assets/js/app.js"></script>
+    <script src="../../../../public/assets/js/plugins.init.js"></script>
+    <script src="../../../../public/assets/js/app.js"></script>
 
     <script>
         const handleChange = () => {

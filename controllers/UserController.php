@@ -13,14 +13,14 @@ class UserController
     public function loadProfile(): void
     {
         $ads = (new Ads())->getUsersAds((new Session())->getId());
-        loadView('profile', ['ads' => $ads], false);
+        view('profile', ['ads' => $ads]);
     }
     public function show(int $id): void
     {
         $user       = (new User())->getUser($id);
 
-        loadView('single-user', ['user' => $user]);
-        loadView('profile', ['user' => $user]);
+        view('single-user', ['user' => $user]);
+        view('profile', ['user' => $user]);
     }
 
 }

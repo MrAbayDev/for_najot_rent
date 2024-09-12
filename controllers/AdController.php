@@ -22,14 +22,14 @@ class AdController
         $ad        = (new \App\Ads())->getAd($id);
         $ad->image = "../assets/images/ads/$ad->image";
 
-        loadView('single-ad', ['ad' => $ad]);
+        view('single-ad', ['ad' => $ad]);
     }
 
     public function create(): void
     {
         $branches = (new Branch())->getBranches();
         $statuses = (new Status())->getStatuses();
-        loadView('dashboard/create-ad', ['branches' => $branches, 'statuses' => $statuses]);
+        view('dashboard/create-ad', ['branches' => $branches, 'statuses' => $statuses]);
     }
 
     public function store(): void
@@ -75,7 +75,7 @@ class AdController
     public function update(int $id): void{
         $branches = (new Branch())->getBranches();
         $statuses = (new Status())->getStatuses();
-        loadView('dashboard/create-ad', ['ad' => (new \App\Ads())->getAd($id), 'branches' => $branches, 'statuses' => $statuses]);
+        view('dashboard/create-ad', ['ad' => (new \App\Ads())->getAd($id), 'branches' => $branches, 'statuses' => $statuses]);
     }
 
     public function edit(int $id): void{
@@ -104,6 +104,7 @@ class AdController
     public function delete(int $id): void
     {
         $this->ads->deleteAds($id);
+        redirect('/');
     }
     public function search(): void
     {

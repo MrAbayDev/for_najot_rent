@@ -17,8 +17,8 @@ loadPartials('navbar');
                         <a href="#" class="xl:hidden block me-2">
                             <img src="../../assets/images/logo-icon-32.png" class="md:hidden block" alt="">
                             <span class="md:block hidden">
-                                    <img src="../../assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
-                                    <img src="../../assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
+                                    <img src="../../../../public/assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
+                                    <img src="../../../../public/assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
                                 </span>
                         </a>
                         <!-- Logo -->

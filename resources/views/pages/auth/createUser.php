@@ -13,13 +13,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="../../../../public/assets/images/favicon.ico" />
 
     <!-- Css -->
     <!-- Main Css -->
-    <link href="../../assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
-    <link href="../../assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../../assets/css/tailwind.css" />
+    <link href="../../../../public/assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+    <link href="../../../../public/assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../../../public/assets/css/tailwind.css" />
 
 </head>
 <section class="md:h-screen py-36 flex items-center relative overflow-hidden zoom-image">
@@ -28,7 +28,7 @@
     <div class="container relative z-3">
         <div class="flex justify-center">
             <div class="max-w-[400px] w-full m-auto p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-700 rounded-md">
-                <a href="/register"><img src="../../assets/images/logo-icon-64.png" class="mx-auto" alt="" ></a>
+                <a href="/register"><img src="../../../../public/assets/images/logo-icon-64.png" class="mx-auto" alt="" ></a>
                 <h5 class="my-6 text-xl font-semibold">Signup</h5>
                 <form action="/register" method="POST">
                     <div class="grid grid-cols-1">
@@ -107,10 +107,10 @@
 <!-- LTR & RTL Mode Code -->
 
 <!-- JAVASCRIPTS -->
-<script src="../../assets/libs/particles.js/particles.js"></script>
-<script src="../../assets/libs/feather-icons/feather.min.js"></script>
-<script src="../../assets/js/plugins.init.js"></script>
-<script src="../../assets/js/app.js"></script>
+<script src="../../../../public/assets/libs/particles.js/particles.js"></script>
+<script src="../../../../public/assets/libs/feather-icons/feather.min.js"></script>
+<script src="../../../../public/assets/js/plugins.init.js"></script>
+<script src="../../../../public/assets/js/app.js"></script>
 <!-- JAVASCRIPTS -->
 </body>
 </html>
