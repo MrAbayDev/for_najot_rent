@@ -35,7 +35,7 @@ class AuthController
     }
     public function showUserInfo():void{
         $userGender = (new User())->getUser();
-        loadView('auth/createUser', ['userGender' => $userGender]);
+        view('auth/createUser', ['userGender' => $userGender]);
     }
 
 }
